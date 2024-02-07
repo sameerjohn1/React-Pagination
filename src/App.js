@@ -1,5 +1,6 @@
 import React,{useEffect,useState} from 'react'
 import './App.css';
+import Images from './components/Images';
 
 
 
@@ -13,9 +14,8 @@ function App() {
   console.log(images);
   
   return (
-    <div className="App">
-   
-  
+    <div>
+  <Images data={images} />
     </div>
   );
 }
