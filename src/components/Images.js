@@ -41,6 +41,11 @@ export default function Images(props) {
         pageCount={pageCount}
         previousLabel="< previous"
         renderOnZeroPageCount={null}
+        containerClassName='pagination'
+        pageLinkClassName='page-num'
+        previousLinkClassName='page-num'
+        nextLinkClassName='page-num'
+        activeLinkClassName='active'
       />
     </>
   );
